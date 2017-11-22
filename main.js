@@ -57,3 +57,24 @@ function substrtrue(path){
 
 
 console.log(substrtrue(pathfile));
+
+
+var k=5;
+
+function even(number){
+	if (number%2==0){
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+var evenarr=[];
+var evenodd=[1,3,5,4,2,7,8];
+for (var i =0; i<evenodd.length; i++){
+	if (even(evenodd[i])){
+		evenarr.push(evenodd[i]);
+	}
+	
+} 
+console.log(evenarr);
