@@ -78,3 +78,23 @@ for (var i =0; i<evenodd.length; i++){
 	
 } 
 console.log(evenarr);
+
+
+var al = document.getElementById('test-id');
+var ks = document.getElementsByClassName('container');
+var elem = document.querySelectorAll('container');
+var color = document.querySelector('.controls');
+var el = color.children[0];
+//el.addEventListener('click', function(){
+	//for(var i=0; i<el.value;i++){
+		var div = document.createElement('div');
+		color.appendChild(div);
+		div.className='srt';
+		div.width='32px';
+		div.heigth='50px';
+		div.border='1px solid black';
+		
+	//}
+	
+//});
+console.log(div);
